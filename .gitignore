@@ -30,7 +30,7 @@ yarn-error.log*
 .env.development
 
 # data
-data/todos.json
+# data/todos.json
 
 # vercel
 .vercel
