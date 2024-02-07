@@ -30,6 +30,12 @@ const TodoForm = ({
                 onChange={setInputValue}
                 placeholder="Enter Todo..." />
 
+            <TagsInput
+                tags={tags}
+                autoCompleteTags={autoCompleteTags}
+                onChangeTags={setTags}
+                placeholder="Enter Tags..."/>
+
             <ClickButton
                 label="Add"
                 onClick={addClickHandler}
