@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Next TODO",
-  description: "This is Next.js TODO Application.",
+  title: "Next.js　To-Do-List　ウエブアプリ",
+  description: "これは　Next.js　を利用しての　To-Do-List　ウエブアプリケーションです！",
 };
 
 export default function RootLayout({
@@ -13,9 +13,9 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="en">
+    <html lang="ja">
       <body>
-        <h1 className="flex p-3 me-3 text-2xl justify-center">TODO App</h1>
+        <h1 className="flex p-3 me-3 text-2xl justify-center">To-Do-List　ウエブアプリ</h1>
         <main className="mx-auto w-1/2">
           {children}
         </main>
