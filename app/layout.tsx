@@ -18,6 +18,7 @@ export default function RootLayout({
         <h1 className="flex p-3 me-3 text-2xl justify-center">To-Do-List　ウエブアプリ</h1>
         <main className="mx-auto w-1/2">
           {children}
+          <center><h1>IG21 220064 Mohammad Wahyu Budi Mulya</h1></center>
         </main>
       </body>
     </html>
